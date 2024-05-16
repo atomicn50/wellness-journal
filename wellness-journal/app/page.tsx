@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { lusitana } from "./ui/fonts";
 import { getHour } from './lib/utils';
+import Card from "./ui/home/card";
 
 export default function Home() {
   const hour = getHour();
@@ -20,6 +21,10 @@ export default function Home() {
         <h1 className={`${lusitana.className} text-6xl py-8`}>
           {header}
         </h1>
+      </div>
+      <div className="flex py-8 px-4">
+        <Card id="food-drink" title="Food and Drink"/>
+        <Card id="rest" title="Rest"/>
       </div>
     </main>
   );
