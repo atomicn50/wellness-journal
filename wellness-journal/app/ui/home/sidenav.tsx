@@ -6,7 +6,7 @@ import { lusitana } from "../fonts";
 
 export default function SideNav() {
   return (
-    <div className="bg-zinc-200 h-screen w-52">
+    <div className="bg-zinc-200 h-screen w-64">
       <div className="flex p-3">
         <Image
           src={profile}
