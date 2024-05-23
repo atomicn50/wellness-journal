@@ -5,7 +5,8 @@ import { usePathname } from 'next/navigation';
 
 import clsx from 'clsx';
 
-import { BookmarkIcon, CalendarIcon } from "@heroicons/react/24/outline";
+import { BookmarkIcon } from '@heroicons/react/24/outline';
+import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 
 const links = [
   {
@@ -16,7 +17,7 @@ const links = [
   {
     name: 'Calendar',
     href: '/home/calendar',
-    icon: CalendarIcon,
+    icon: CalendarDaysIcon,
   }
 ];
 
