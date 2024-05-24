@@ -23,3 +23,5 @@ export const getCurrentWeekDays = () => {
 export const getDayOfMonth = () => {
   return moment().date();
 };
+
+export const getCurrentWeek = () => moment().week();
